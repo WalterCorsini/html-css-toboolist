@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    border-radius: 3px;
+}
+/* HEADER */
+.section-logo{
+    height: 70px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 0 rgb(182, 182, 182);
+ 
+}
+
+.img-logo{
+    line-height: 70px;
+}
+
+.img-logo img{
+    width: 100px;    
+}
+
+.section-logo, .container{
+    background-color: rgb(237, 242, 247);
+}
+/* /HEADER */
+
+/* NAV BAR */
+.nav-button{
+    margin: 15px 1px;
+}
+
+.text-add, .button-add{
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-shadow: 0 0 5px 0 lightgrey;
+    vertical-align:middle; 
+}
+
+.button-add{
+    background-color: rgb(20, 170, 245);
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+}
+/* /NAV BAR */
+
+/* MAIN */
+/* FORMATTAZIONE LIST */
+.list-none{
+    list-style: none;
+}
+
+.list-title, .things{
+    text-align: left;   
+}
+.things{
+    background-color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+ 
+}
+
+.list{
+    padding:20px;
+}
+
+.list-title{
+    padding: 5px;
+}
+
+li{
+    font-size: 10px;
+}
+
+.linethrough{
+    text-decoration: line-through;
+    text-decoration-color:black;
+}
+
+.type{
+    padding: 3px;
+    font-size: 7px;
+    border-radius: 20px;
+    color: white;  
+}
+/* /FORMATTAZIONE LIST */
+
+
+/* FORMATTAZIONE  CHECK E CROSS */
+.check{
+    color: rgb(120, 207, 192);
+    border: 1px solid rgb(120, 207, 192);
+}
+
+.cross{
+    color: red;
+    border: 1px solid red;
+}
+
+.sign{
+    font-size: 6px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 2px;
+    vertical-align:middle; 
+    line-height: 10px;
+    margin-right: 5px;
+}
+/* /FORMATTAZIONE  CHECK E CROSS */
+
+/* FORMATTAZIONE LIST */
+
+/* /FORMATTAZIONE LIST */
+
+
+/* CATEGORY TASK */
+.editorial{
+    background-color: rgb(20, 170, 245);
+}
+
+.computer{
+    background-color: rgb(171, 93, 230);
+}
+
+.news{
+    background-color: rgb(44, 198, 171);
+}
+
+.mobile{
+    background-color: rgb(255, 155, 0);
+}
+
+.internet{
+    background-color: rgb(236, 74, 157);
+}
+/* /CATEGORY TASK */
