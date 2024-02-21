@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 .container{
@@ -10,6 +9,7 @@
     margin: 0 auto;
     margin-bottom: 1px;
     border-radius: 3px;
+    text-align: center;
 }
 /* HEADER */
 .section-logo{
