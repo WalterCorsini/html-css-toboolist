@@ -57,12 +57,10 @@
 
 /* MAIN */
 /* FORMATTAZIONE LIST */
-.list-none{
-    list-style: none;
-}
 
 .list-title, .things{
-    text-align: left;   
+    text-align: left;  
+    list-style: none; 
 }
 .things{
     background-color: white;
