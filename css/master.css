@@ -89,13 +89,6 @@ li{
     text-decoration: line-through;
     text-decoration-color:black;
 }
-
-.type{
-    padding: 3px;
-    font-size: 7px;
-    border-radius: 20px;
-    color: white;  
-}
 /* /FORMATTAZIONE LIST */
 
 
@@ -135,6 +128,13 @@ li{
 
 
 /* CATEGORY TASK */
+.type{
+    padding: 3px;
+    font-size: 7px;
+    border-radius: 20px;
+    color: white;  
+}
+
 .editorial{
     background-color: rgb(20, 170, 245);
 }
