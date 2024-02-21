@@ -67,7 +67,6 @@ ul{
     padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
- 
 }
 
 .list{
@@ -111,16 +110,23 @@ li{
     border: 1px solid red;
 }
 
-.sign{
-    font-size: 6px;
-    height: 10px;
-    width: 10px;
+.sign{     /*fix class sign*/
+    display: inline-block;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
-    padding: 2px;
+    text-align: center;
+}
+/* .sign{           first version
+    font-size: 10px;
+    height: 10px;            non puoi settare altezza se il tag è inline
+    width: 10px;            non puoi settare larghezza se il tat non è inline
+    border-radius: 50%;
+    padding: 2px;           
     vertical-align:middle; 
     line-height: 10px;
     margin-right: 5px;
-}
+} */
 /* /FORMATTAZIONE  CHECK E CROSS */
 
 /* FORMATTAZIONE LIST */
