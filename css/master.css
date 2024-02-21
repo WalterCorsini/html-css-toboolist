@@ -58,7 +58,7 @@
 /* MAIN */
 /* FORMATTAZIONE LIST */
 
-.list-title, .things{
+ul{
     text-align: left;  
     list-style: none; 
 }
